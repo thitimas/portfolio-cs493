@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YOUR NAME | Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website: projects, skills, and contact."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ===== Header / Nav ===== -->
+    <header class="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-mark">◆</span>
+          <span class="brand-text">YOUR NAME</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+          ☰
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== Main ===== -->
+    <main id="top">
+      <!-- ===== Hero ===== -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <!-- TODO (students): Replace with your name -->
+            <h1>Hi, I’m <span class="accent">YOUR NAME</span>.</h1>
+
+            <!-- TODO (students): Replace with your title/tagline -->
+            <p class="subtitle">
+              Computer Science student building practical projects with Python, Git,
+              and AI-assisted coding.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn" href="#contact">Contact</a>
+            </div>
+
+            <div class="hero-links">
+              <!-- TODO (students): Update your links -->
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+              <span class="dot">•</span>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <span class="dot">•</span>
+              <a href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card">
+              <h2 class="card-title">Quick Snapshot</h2>
+              <ul class="checklist">
+                <!-- TODO (students): Update these bullets -->
+                <li>Interested in: Software Engineering / Cybersecurity / Data</li>
+                <li>Currently learning: Python + GitHub Copilot</li>
+                <li>Goal: Internship-ready portfolio</li>
+              </ul>
+              <p class="note">
+                Tip: Make small improvements and commit often. Your Git history is part
+                of your portfolio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== About ===== -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p class="muted">
+              A short professional intro. Keep it clear, not cheesy.
+            </p>
+          </div>
+
+          <div class="two-col">
+            <div class="card">
+              <h3>Who I am</h3>
+              <!-- TODO (students): Replace with your own paragraph -->
+              <p>
+                I’m a computer science student with a foundation in programming and
+                problem-solving. I enjoy building projects that solve real problems,
+                and I’m currently improving my workflow with Git, GitHub, and
+                AI-assisted coding tools.
+              </p>
+
+              <p>
+                Outside of coding, I’m interested in learning new technologies,
+                improving my communication skills, and turning class projects into
+                portfolio-ready work.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>What I’m looking for</h3>
+              <ul class="bullets">
+                <!-- TODO (students): Edit to match your goals -->
+                <li>Internship / research opportunities</li>
+                <li>Hands-on projects that build real skills</li>
+                <li>Team-based development and code reviews</li>
+              </ul>
+
+              <div class="callout">
+                <strong>Current focus:</strong> Python fundamentals, clean code,
+                Git version control, and using Copilot responsibly.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Projects ===== -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p class="muted">
+              Include 3 projects. Each should have a goal, what you built, and the tools used.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <article class="project card">
+              <h3>Project 1: Car Rental Console App</h3>
+              <p class="muted">
+                Menu-based app that stores inventory and rental status using lists and dictionaries.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Data Structures</span>
+                <span class="tag">Input Validation</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Demo/Docs</a>
+              </div>
+            </article>
+
+            <!-- Project Card 2 -->
+            <article class="project card">
+              <h3>Project 2: API Data Dashboard</h3>
+              <p class="muted">
+                Fetches real-time data from an API and displays a summary report.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Requests</span>
+                <span class="tag">JSON</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Demo/Docs</a>
+              </div>
+            </article>
+
+            <!-- Project Card 3 -->
+            <article class="project card">
+              <h3>Project 3: Personal Website Remix</h3>
+              <p class="muted">
+                Customized HTML/CSS template with Git workflow (branch, merge) and clean commits.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Git</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn small" href="#" target="_blank" rel="noreferrer">Code</a>
+                <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Live Site</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Skills ===== -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <p class="muted">List the tools you can actually use.</p>
+          </div>
+
+          <div class="card">
+            <div class="skills-grid">
+              <!-- TODO (students): Edit this list -->
+              <div>
+                <h3>Languages</h3>
+                <ul class="pill-list">
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3>Tools</h3>
+                <ul class="pill-list">
+                  <li>Git</li>
+                  <li>GitHub</li>
+                  <li>VS Code</li>
+                </ul>
+              </div>
+
+              <div>
+                <h3>Workflow</h3>
+                <ul class="pill-list">
+                  <li>Branches & merges</li>
+                  <li>Testing basics</li>
+                  <li>AI-assisted coding (Copilot)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Contact ===== -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p class="muted">Keep it simple. Make it easy to reach you.</p>
+          </div>
+
+          <div class="one-col">
+            <div class="card">
+              <h3>Get in touch</h3>
+              <p>
+                Email is best. If you’re reviewing my work, feel free to reach out with
+                feedback or opportunities.
+              </p>
+
+              <!-- TODO (students): Replace email -->
+              <p class="contact-line">
+                <strong>Email:</strong> <a href="mailto:yourname@email.com">yourname@email.com</a>
+              </p>
+
+              <p class="contact-line">
+                <strong>GitHub:</strong>
+                <a href="https://github.com/" target="_blank" rel="noreferrer">github.com/yourusername</a>
+              </p>
+
+              <p class="contact-line">
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/yourusername</a>
+              </p>
+            </div>
+
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p class="muted">© <span id="year"></span> YOUR NAME. All rights reserved.</p>
+        <a class="muted" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
