@@ -68,7 +68,7 @@ img { max-width: 100%; display: block; }
 
 .brand-mark {
   color: var(--accent);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .site-nav {
@@ -101,7 +101,7 @@ img { max-width: 100%; display: block; }
    Sections
 ========= */
 .section {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .section-head {
