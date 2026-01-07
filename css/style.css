@@ -4,13 +4,13 @@
 
 :root {
   /* New cohesive palette */
-  --bg: #03000a;      /* Background: near-black with purple undertone */
-  --surface: #0b0420; /* Surfaces/cards: deep purple-black */
+  --bg: #0a0d1a;      /* Background: very dark indigo/near-black */
+  --surface: #0f1724; /* Surfaces/cards: deep slate */
   --text: #ffffff;    /* Text: pure white for maximum legibility */
-  --muted: #d6cfff;   /* Muted: lighter lavender for notes/captions */
-  --primary: #8b5cf6; /* Primary: rich purple for links and accents */
-  --secondary: #a78bfa;/* Secondary: softer purple for tags/highlights */
-  --accent: #b388ff;  /* Accent: light lavender (callouts, buttons) */
+  --muted: #c0cbe6;   /* Muted: lighter cool blue for notes/captions */
+  --primary: #6ea0ff; /* Primary: brighter blue for links and accents */
+  --secondary: #2aa394;/* Secondary: teal (tags, subtle highlights) */
+  --accent: #f59e0b;  /* Accent: warm amber (buttons, highlights) */
   --border: rgba(238, 244, 255, 0.06);
   --shadow: 0 18px 48px rgba(2, 6, 23, 0.7);
   --radius: 16px;
