@@ -7,7 +7,7 @@
   --bg: #0a0d1a;      /* Background: very dark indigo/near-black */
   --surface: #0f1724; /* Surfaces/cards: deep slate */
   --text: #ffffff;    /* Text: pure white for maximum legibility */
-  --muted: #c0cbe6;   /* Muted: lighter cool blue for notes/captions */
+  --muted: #f8f9fc;   /* Muted: lighter cool blue for notes/captions */
   --primary: #6ea0ff; /* Primary: brighter blue for links and accents */
   --secondary: #2aa394;/* Secondary: teal (tags, subtle highlights) */
   --accent: #f59e0b;  /* Accent: warm amber (buttons, highlights) */
@@ -19,7 +19,7 @@
   --line-height: 1.6;
   --section-gap: 1.5rem;
   --card-padding: 24px;
-  --card-radius: 14px;
+  --card-radius: 50px;
   --card-shadow: 0 18px 48px rgba(2, 6, 23, 0.55);
   --card-hover-shadow: 0 28px 64px rgba(2, 6, 23, 0.72);
 }

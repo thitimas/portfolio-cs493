@@ -9,6 +9,38 @@
       content="Personal portfolio website: projects, skills, and contact."
     />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Purple & black background and purple name color overrides */
+      body {
+        background: linear-gradient(135deg,#0b0b0b 0%,#120021 40%,#2a0b3a 100%);
+        background-attachment: fixed;
+        color: #e6e6e6;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .brand-text,
+      .accent {
+        color: #9b59ff;
+      }
+      .site-header {
+        background: transparent;
+      }
+      /* Profile photo styles */
+      .profile-section {
+        padding: 2rem 0 1rem;
+      }
+      .profile-photo img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border: 4px solid rgba(155,89,255,0.12);
+        box-shadow: 0 8px 28px rgba(0,0,0,0.6);
+        background: rgba(255,255,255,0.02);
+      }
+    </style>
   </head>
 
   <body>
@@ -41,7 +73,7 @@
         <div class="container hero-grid">
           <div class="hero-content">
             <!-- TODO (students): Replace with your name -->
-            <h1>Hi, I’m <span class="accent">Elias Murshed</span>.</h1>
+            <h1>Hi, I’m <span class="accent">Elias Murshed</span>!</h1>
 
             <!-- TODO (students): Replace with your title/tagline -->
             <p class="subtitle">
@@ -59,24 +91,34 @@
               <span class="dot">•</span>
               <a href="https://www.linkedin.com/in/elias-murshed-511162181/" target="_blank" rel="noreferrer">LinkedIn</a>
               <span class="dot">•</span>
-              <a href="#" target="_blank" rel="noreferrer">Resume (PDF)</a>
+              <a href="Elias_Murshed_Resume.pdf" target="resume.pdf" rel="noreferrer">Resume (PDF)</a>
+              <embed src="https://drive.google.com/drive/u/0/home" width="100vh" height="100vh" type="application/pdf">
             </div>
           </div>
 
           <div class="hero-card">
             <div class="card">
-              <h2 class="card-title">Quick Snapshot</h2>
+              <h2 style="text-align: center;" class="card-title">Objectives</h2>
               <ul class="checklist">
                 <!-- TODO (students): Update these bullets -->
-                <li>Interested in: Software Engineering / Cybersecurity / Data</li>
+                <li>Interested in: Software Engineering / Cybersecurity / Data Science</li>
                 <li>Currently learning: Python + GitHub Copilot</li>
-                <li>Goal: Internship-ready portfolio</li>
+                <li>Goal: Internship and Job-ready portfolio</li>
               </ul>
-              <p class="note">
+              <!-- <p class="note">
                 Tip: Make small improvements and commit often. Your Git history is part
                 of your portfolio.
-              </p>
+              </p> -->
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Profile Photo ===== -->
+      <section class="profile-section" aria-label="Profile photo">
+        <div class="container">
+          <div class="profile-photo">
+            <img src="images/avatar-tech-nerd.svg" alt="Tech nerd avatar of Elias Murshed">
           </div>
         </div>
       </section>
@@ -85,20 +127,20 @@
       <section class="section" id="about">
         <div class="container">
           <div class="section-head">
-            <h2>About</h2>
+            <h2 style="text-align: center;">About</h2>
             <p class="muted">
               A driven, young and passionate programmer on the road towards success. My goal is
               to enhance my prior and current programming skills and knowledge using Artificial
               Intelligence (AI) for development. Currently a senior pursuing bacherlors degree
-               in computer science and a web designer in Ripplematch. Will be graduating 
-               Spring 2026 with a full time career in the tech sector. I am confident the skills
-               im embracing in cs classes at york will assist me in rapid growth.  
+              in computer science and a web designer in Ripplematch. Will be graduating 
+              Spring 2026 with a full time career in the tech sector. I am confident the skills
+              im embracing in cs classes at york will assist me in rapid growth.  
             </p>
           </div>
 
           <div class="two-col">
             <div class="card">
-              <h3>Who I am</h3>
+              <h3 style="text-align: center;">Who I am</h3>
               <!-- TODO (students): Replace with your own paragraph -->
               <p>
                 I’m a computer science student with a foundation in programming and
@@ -115,7 +157,7 @@
             </div>
 
             <div class="card">
-              <h3>What I’m looking for</h3>
+              <h3 style="text-align: center;">What I’m looking for</h3>
               <ul class="bullets">
                 <!-- TODO (students): Edit to match your goals -->
                 <li>Internship / research opportunities</li>
@@ -136,17 +178,22 @@
       <section class="section" id="projects">
         <div class="container">
           <div class="section-head">
-            <h2>Projects</h2>
-            <p class="muted">
+            <h2 style="text-align: center;">Projects</h2>
+            <p style="text-align: center;" class="muted">
               <!-- Include 3 projects. Each should have a goal, what you built, and the tools used. -->
               Project 1: Ludo Multiplayer Board Game
+              <br>
               Tools used: Utilized HTML, CSS, JavaScript to create outstanding user experience.
-              
+              <br>
+              <br>
               Project 2: MTA Metro Card Project
+              <br>
               Tools used: Developed a Java based application and SQL to allow users to purchase
               metro card and recharge money.
-              
+              <br>
+              <br>
               Project 3: Tic Tac Toe
+              <br>
               Tools used: Used C++ programming to construct a classical game of tic tac toe to
               improve critical and problem solving skills amongst young children.
 
