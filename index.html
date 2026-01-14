@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <style>
-      /* Purple & black background and purple name color overrides */
+      /* Background gradient */
       body {
         background: linear-gradient(135deg,#0b0b0b 0%,#120021 40%,#2a0b3a 100%);
         background-attachment: fixed;
@@ -30,15 +30,17 @@
         padding: 2rem 0 1rem;
       }
       .profile-photo img {
-        width: 160px;
-        height: 160px;
+        width: 220px;
+        height: 220px;
         border-radius: 50%;
         object-fit: cover;
         display: block;
         margin: 0 auto;
-        border: 4px solid rgba(155,89,255,0.12);
-        box-shadow: 0 8px 28px rgba(0,0,0,0.6);
+        border: 5px solid rgba(155,89,255,0.2);
+        box-shadow: 0 12px 40px rgba(155,89,255,0.4);
         background: rgba(255,255,255,0.02);
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
       }
     </style>
   </head>
@@ -72,19 +74,14 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-content">
-            <!-- TODO (students): Replace with your name -->
             <h1>Hi, I’m <span class="accent">Elias Murshed</span>!</h1>
-
-            <!-- TODO (students): Replace with your title/tagline -->
             <p class="subtitle">
               Programming isn't about what you know; it's about what you can figure out.
             </p>
-
             <div class="hero-actions">
               <a class="btn primary" href="#projects">View Projects</a>
               <a class="btn" href="#contact">Contact</a>
             </div>
-
             <div class="hero-links">
               <!-- TODO (students): Update your links -->
               <a href="https://github.com/eliasmurshed1" target="_blank" rel="noreferrer">GitHub</a>
@@ -98,16 +95,12 @@
           <div class="hero-card">
             <div class="card">
               <h2 style="text-align: center;" class="card-title">Objectives</h2>
+              <img src="images/checklist_pic.png" alt="Checklist" style="display: block; margin: 0 auto 1rem auto; width: 40%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
               <ul class="checklist">
-                <!-- TODO (students): Update these bullets -->
                 <li>Interested in: Software Engineering / Cybersecurity / Data Science</li>
                 <li>Currently learning: Python + GitHub Copilot</li>
                 <li>Goal: Internship and Job-ready portfolio</li>
               </ul>
-              <!-- <p class="note">
-                Tip: Make small improvements and commit often. Your Git history is part
-                of your portfolio.
-              </p> -->
             </div>
           </div>
         </div>
@@ -117,7 +110,7 @@
       <section class="profile-section" aria-label="Profile photo">
         <div class="container">
           <div class="profile-photo">
-            <img src="images/avatar-tech-nerd.svg" alt="Tech nerd avatar of Elias Murshed">
+            <img src="images/Professional_pic.png" alt="Professional photo of Elias Murshed">
           </div>
         </div>
       </section>
@@ -140,7 +133,7 @@
           <div class="two-col">
             <div class="card">
               <h3 style="text-align: center;">Who I am</h3>
-              <!-- TODO (students): Replace with your own paragraph -->
+              <img src="images/who_i_am.png" alt="Who I am" style="width: 50%; height: auto; border-radius: 8px; margin-bottom: 1rem; display: block; margin: 0 auto 1rem auto;">          
               <p>
                 I’m a computer science student with a foundation in programming and
                 problem-solving. I enjoy building projects that solve real problems,
@@ -157,8 +150,8 @@
 
             <div class="card">
               <h3 style="text-align: center;">What I’m looking for</h3>
+              <img src="images/what_im_looking_for.png" alt="Who I am" style="width: 70%; height: auto; border-radius: 8px; margin-bottom: 1rem; display: block; margin: 0 auto 1rem auto;">
               <ul class="bullets">
-                <!-- TODO (students): Edit to match your goals -->
                 <li>Certification in AWS and Azure Cloud </li>
                 <li>Integrate cloud services with existing applications</li>
                 <li>Develop key skills in cloud computing and software development</li>
@@ -166,11 +159,12 @@
             </div>
             <div class="card current-focus" style="grid-column: 1 / -1; text-align: center;">
               <h3 style="text-align: center; margin-bottom: 0.25rem;">Current focus</h3>
+              <img src="images/Robot_thinking.png" alt="Who I am" style="width: 30%; height: auto; border-radius: 8px; margin-bottom: 1rem; display: block; margin: 0 auto 1rem auto;">
               <ul class="bullets" style="margin-top:0.25rem; display:inline-block; text-align:left; padding-left:1rem;">
-              <li style="margin:0.25rem 0;">Python fundamentals</li>
-              <li style="margin:0.25rem 0;">Clean code/Structure</li>
-              <li style="margin:0.25rem 0;">Git Source control</li>
-              <li style="margin:0.25rem 0;">Using Copilot responsibly</li>
+              <li style="margin:0.25rem 0;">Contributing to open-source projects to gain personal experience</li>
+              <li style="margin:0.25rem 0;">Implement Agile and DevOps practices and stay current with emerging technologies</li>
+              <li style="margin:0.25rem 0;">Enhance problem-solving skills and learn advanced version control techniques</li>
+              <li style="margin:0.25rem 0;">Master a new programming language and optimize code for performance and scalability</li>
               </ul>
             </div>
           </div>
@@ -182,24 +176,7 @@
         <div class="container">
           <div class="section-head">
             <h2 style="text-align: center;">Projects</h2>
-            <p style="text-align: center;" class="muted">
-              <!-- Include 3 projects. Each should have a goal, what you built, and the tools used.
-              Project 1: Ludo Multiplayer Board Game
-              <br>
-              Tools used: Utilized HTML, CSS, JavaScript to create outstanding user experience.
-              <br>
-              <br>
-              Project 2: MTA Metro Card Project
-              <br>
-              Tools used: Developed a Java based application and SQL to allow users to purchase
-              metro card and recharge money.
-              <br>
-              <br>
-              Project 3: Tic Tac Toe
-              <br>
-              Tools used: Used C++ programming to construct a classical game of tic tac toe to
-              improve critical and problem solving skills amongst young children. -->
-
+            <p style="text-align: center;" class="muted"></p>
             </p>
           </div>
 
@@ -269,14 +246,14 @@
         <div class="container">
           <div class="section-head">
             <h2 style="text-align: center;">Skills</h2>
-            <!-- <p style="text-align: center;" class="muted">List the tools you can actually use.</p> -->
           </div>
 
           <div class="card">
             <div class="skills-grid">
-              <!-- TODO (students): Edit this list -->
               <div>
                 <h3 style="text-align: center;">Languages</h3>
+                <img src="images/program_languages.png" alt="Programming Languages" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+
                 <ul class="pill-list">
                   <li>C++</li>
                   <li>Java</li>
@@ -289,6 +266,7 @@
 
               <div>
                 <h3 style="text-align: center;">Tools</h3>
+                <img src="images/editor_tools.png" alt="Tools" style="display: block; margin: 0 auto 1rem auto; width: 80%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
                 <ul class="pill-list">
                   <li>Git</li>
                   <li>GitHub</li>
@@ -302,6 +280,7 @@
 
               <div>
                 <h3 style="text-align: center;">Workflow</h3>
+                <img src="images/workflow_task.png" alt="Workflow" style="display: block; margin: 0 auto 1rem auto; width: 80%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
                 <ul class="pill-list">
                   <li>Data Analysis & Automation</li>
                   <li>Time management</li>
@@ -316,22 +295,17 @@
       <!-- ===== Contact ===== -->
       <section class="section" id="contact">
         <div class="container">
-          <!-- <div class="section-head">
-            <h2>Contact</h2>
-            <p class="muted">Email: sm.murshed@yorkmail.cuny.edu</p>
-          </div> -->
-
           <div class="one-col">
             <div class="card">
               <h3 style="text-align: center;">Get in touch</h3>
+              <img src="images/communication_pic.png" alt="Workflow" style="display: block; margin: 0 auto 1rem auto; width: 40%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+
               <p>
                 Email is best and fastest way to reach me. If you’re reviewing my work, feel free to reach out with
                 feedback or opportunities.
               </p>
-
-              <!-- TODO (students): Replace email -->
               <p class="contact-line">
-                <strong>Email:</strong> <a href="sm.murshed@yorkmail.cuny.edu">sm.murshed@yorkmail.cuny.edu</a>
+                <strong>Email:</strong> <a href="mailto:sm.murshed@yorkmail.cuny.edu">sm.murshed@yorkmail.cuny.edu</a>
               </p>
 
               <p class="contact-line">
@@ -344,8 +318,7 @@
                 <a href="https://www.linkedin.com/in/elias-murshed-511162181/" target="_blank" rel="noreferrer">linkedin.com/in/elias-murshed-511162181/</a>
               </p>
             </div>
-
-            
+            </div>
           </div>
         </div>
       </section>
