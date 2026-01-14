@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450" width="450" height="450">
+  <!-- Background -->
+  <rect width="450" height="450" fill="white"/>
+  
+  <!-- Red quadrant -->
+  <rect x="0" y="0" width="180" height="180" fill="#E74C3C"/>
+  <rect x="25" y="25" width="130" height="130" fill="white" rx="15"/>
+  <circle cx="60" cy="60" r="15" fill="#E74C3C"/>
+  <circle cx="120" cy="60" r="15" fill="#E74C3C"/>
+  <circle cx="60" cy="120" r="15" fill="#E74C3C"/>
+  <circle cx="120" cy="120" r="15" fill="#E74C3C"/>
+  
+  <!-- Blue quadrant -->
+  <rect x="270" y="0" width="180" height="180" fill="#3498DB"/>
+  <rect x="295" y="25" width="130" height="130" fill="white" rx="15"/>
+  <circle cx="330" cy="60" r="15" fill="#3498DB"/>
+  <circle cx="390" cy="60" r="15" fill="#3498DB"/>
+  <circle cx="330" cy="120" r="15" fill="#3498DB"/>
+  <circle cx="390" cy="120" r="15" fill="#3498DB"/>
+  
+  <!-- Green quadrant -->
+  <rect x="0" y="270" width="180" height="180" fill="#27AE60"/>
+  <rect x="25" y="295" width="130" height="130" fill="white" rx="15"/>
+  <circle cx="60" cy="330" r="15" fill="#27AE60"/>
+  <circle cx="120" cy="330" r="15" fill="#27AE60"/>
+  <circle cx="60" cy="390" r="15" fill="#27AE60"/>
+  <circle cx="120" cy="390" r="15" fill="#27AE60"/>
+  
+  <!-- Yellow quadrant -->
+  <rect x="270" y="270" width="180" height="180" fill="#F39C12"/>
+  <rect x="295" y="295" width="130" height="130" fill="white" rx="15"/>
+  <circle cx="330" cy="330" r="15" fill="#F39C12"/>
+  <circle cx="390" cy="330" r="15" fill="#F39C12"/>
+  <circle cx="330" cy="390" r="15" fill="#F39C12"/>
+  <circle cx="390" cy="390" r="15" fill="#F39C12"/>
+  
+  <!-- Left column of squares -->
+  <rect x="0" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="60" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="90" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="120" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="150" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="0" y="210" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="210" width="30" height="30" fill="#E74C3C" stroke="#999" stroke-width="1"/>
+  <circle cx="45" cy="225" r="5" fill="white"/>
+  <rect x="60" y="210" width="30" height="30" fill="#E74C3C" stroke="#999" stroke-width="1"/>
+  <rect x="90" y="210" width="30" height="30" fill="#E74C3C" stroke="#999" stroke-width="1"/>
+  <rect x="120" y="210" width="30" height="30" fill="#E74C3C" stroke="#999" stroke-width="1"/>
+  <rect x="150" y="210" width="30" height="30" fill="#E74C3C" stroke="#999" stroke-width="1"/>
+  
+  <rect x="0" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="30" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="60" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="90" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="120" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="150" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <!-- Top row of squares -->
+  <rect x="180" y="0" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="0" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="0" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="30" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="30" width="30" height="30" fill="#3498DB" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="30" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="60" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="60" width="30" height="30" fill="#3498DB" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="60" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="90" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="90" width="30" height="30" fill="#3498DB" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="90" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="120" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="120" width="30" height="30" fill="#3498DB" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="120" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="150" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="150" width="30" height="30" fill="#3498DB" stroke="#999" stroke-width="1"/>
+  <circle cx="225" cy="165" r="5" fill="white"/>
+  <rect x="240" y="150" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <!-- Right column of squares -->
+  <rect x="270" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="300" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="330" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="360" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="390" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="420" y="180" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="270" y="210" width="30" height="30" fill="#F39C12" stroke="#999" stroke-width="1"/>
+  <rect x="300" y="210" width="30" height="30" fill="#F39C12" stroke="#999" stroke-width="1"/>
+  <rect x="330" y="210" width="30" height="30" fill="#F39C12" stroke="#999" stroke-width="1"/>
+  <rect x="360" y="210" width="30" height="30" fill="#F39C12" stroke="#999" stroke-width="1"/>
+  <rect x="390" y="210" width="30" height="30" fill="#F39C12" stroke="#999" stroke-width="1"/>
+  <circle cx="405" cy="225" r="5" fill="white"/>
+  <rect x="420" y="210" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="270" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="300" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="330" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="360" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="390" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="420" y="240" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <!-- Bottom row of squares -->
+  <rect x="180" y="270" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="270" width="30" height="30" fill="#27AE60" stroke="#999" stroke-width="1"/>
+  <circle cx="225" cy="285" r="5" fill="white"/>
+  <rect x="240" y="270" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="300" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="300" width="30" height="30" fill="#27AE60" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="300" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="330" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="330" width="30" height="30" fill="#27AE60" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="330" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="360" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="360" width="30" height="30" fill="#27AE60" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="360" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="390" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="390" width="30" height="30" fill="#27AE60" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="390" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <rect x="180" y="420" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="210" y="420" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  <rect x="240" y="420" width="30" height="30" fill="white" stroke="#999" stroke-width="1"/>
+  
+  <!-- Center triangle home -->
+  <polygon points="225,180 180,225 270,225" fill="#3498DB"/>
+  <polygon points="225,270 180,225 270,225" fill="#27AE60"/>
+  <polygon points="180,225 225,180 225,270" fill="#E74C3C"/>
+  <polygon points="270,225 225,180 225,270" fill="#F39C12"/>
+</svg>
